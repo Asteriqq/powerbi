@@ -39,6 +39,8 @@ iframe{
 section{
     margin-bottom: 5px;
     padding-top: 100px;
+    width: 9%;
+    justify-self: center;
 }
 
 .section-p1{
