@@ -1,17 +1,26 @@
+body{
+    margin: 0;
+}
+
 div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
+    border-radius: 3px;
+    background-color: aliceblue;
 }
 
 iframe{
-    margin: 5px;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-radius: 3px;
 }
 
 #pagination{
     text-align: center;
 }
+
 
 #pagination a{
     text-decoration: none;
@@ -28,6 +37,37 @@ iframe{
 }
 
 section{
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    padding-top: 100px;
+}
+
+.section-p1{
+    padding-top: 20px;
+}
+
+body{
+    background-color: rgb(212, 224, 234);
+}
+
+header{ 
+    display: flex;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px 40px;
+    background-color: aliceblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+}
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: 'Spartan', sans-serif;
+}
+
+.head{
+    margin-bottom: 10px;
 }
